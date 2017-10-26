@@ -1,0 +1,27 @@
+html, body { /* Use all available space on page */ 
+	height: 100%; 
+	text-align: center;
+}
+
+div { 
+	display: inline-block;
+	border: 3px solid black;
+}
+
+button {
+	margin: 5px;
+	padding: 5px;
+	outline: none;
+}
+
+#main {
+	height: 650px;
+	width: 650px;
+	background-color: black;
+}
+
+.area {
+	height: 200px;
+	width: 200px;
+	background-color: white;
+}

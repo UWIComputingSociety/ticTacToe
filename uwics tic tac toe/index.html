@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UWICS Tictactoe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="game.css">
+</head>
+<body>
+	<h1> Welcome to Tic-Tac-Toe!!!</h1>
+	<h2> X always plays first </h2>
+	<button id = "undo">undo</button> <br>
+	<div id="main">
+		<br>
+		<div class="area row_0 col_0"></div>
+		<div class="area row_0 col_1"></div>
+		<div class="area row_0 col_2"></div>
+		<div class="area row_1 col_0"></div>
+		<div class="area row_1 col_1"></div>
+		<div class="area row_1 col_2"></div>
+		<div class="area row_2 col_0"></div>
+		<div class="area row_2 col_1"></div>
+		<div class="area row_2 col_2"></div>
+	</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDE_z3irom0gSkdlYKPOo6CbKjnn_ZB2Co",
+    authDomain: "uwi-tictactoe.firebaseapp.com",
+    databaseURL: "https://uwi-tictactoe.firebaseio.com",
+    projectId: "uwi-tictactoe",
+    storageBucket: "",
+    messagingSenderId: "183092832141"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src = "game.js"></script>
+</body>
+</html>
